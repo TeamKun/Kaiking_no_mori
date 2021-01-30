@@ -1,0 +1,19 @@
+{
+    "entity.zombie_pigman.hurt": {
+        "replace": "true",
+        "sounds": ["","","",""]
+    },
+    "entity.zombie_pigman.ambient": {
+        "replace": "true",
+        "sounds": ["kaiking_voice","kaiking_voice","kaiking_voice","kaiking_voice"]
+    },
+    "entity.zombie_pigman.step": {
+        "replace": "true",
+        "sounds": ["","","",""]
+    },
+    "entity.zombie_pigman.death": {
+        "replace": "true",
+        "sounds": ["",""]
+    }
+
+}

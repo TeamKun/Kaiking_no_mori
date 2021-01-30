@@ -1,0 +1,9 @@
+#preparing for no collision
+/team add kaiking
+/team modify kaiking collisionRule never
+
+#summon big kaiking
+/summon zombie_pigman ~ ~1 ~ {Attributes:[{Name:"generic.movementSpeed",Base:0.3},{Name:"generic.attackDamage",Base:100000}],Invulnerable:1,PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:dead_brain_coral_block}],ActiveEffects:[{Id:14,Duration:999999,ShowParticles:false}],Tags:["kaiking_big"],Anger:32767,Team:"kaiking",CustomName:"\"Kaiking\""}
+
+#summon small kaiking
+/summon zombie_pigman ~ ~1 ~ {Attributes:[{Name:"generic.movementSpeed",Base:0.3},{Name:"generic.attackDamage",Base:100000}],Invulnerable:1,PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:dead_tube_coral_block}],ActiveEffects:[{Id:14,Duration:999999,ShowParticles:false}],Tags:["kaiking_small"],Anger:32767,Team:"kaiking",CustomName:"\"Kaiking\""}
